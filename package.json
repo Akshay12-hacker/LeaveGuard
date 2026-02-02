@@ -1,0 +1,26 @@
+{
+  "name": "leaveguard",
+  "version": "1.0.0",
+  "description": "LeaveGuard ensures that no student is academically penalized due to human negligence after an approved leave",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akshay12-hacker/LeaveGuard.git"
+  },
+  "keywords": [
+    "student"
+  ],
+  "author": "Akshay Rahangdale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akshay12-hacker/LeaveGuard/issues"
+  },
+  "homepage": "https://github.com/Akshay12-hacker/LeaveGuard#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
