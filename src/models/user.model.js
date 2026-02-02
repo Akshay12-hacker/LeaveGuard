@@ -8,6 +8,9 @@ const userSchema = new mongoose.Schema(
             required: true,
             trim: true,
         },
+        avatar:{
+            type: String,
+        },
         scholarId:{
             type:Number,
             required: true,

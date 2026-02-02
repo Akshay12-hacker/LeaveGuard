@@ -1,0 +1,13 @@
+🔒 Golden Rule (Read Once, Follow Forever)
+
+Routes → sirf URL + middleware
+
+Controllers → sirf HTTP handling
+
+Services → 100% business logic
+
+Models → dumb data
+
+AuditLog → har important action pe entry
+
+If tum controller me logic daalte ho → ❌
