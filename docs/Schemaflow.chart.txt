@@ -1,0 +1,26 @@
+🔁 REAL SYSTEM FLOW (Pay attention)
+🔹 Student Registration
+User:
+  role = STUDENT
+  program = B.Tech
+  specialization = CSF
+  semester = 4
+
+🔹 Leave Request
+
+System automatically finds:
+
+Mentor:
+AcademicAssignment
+where:
+  role = MENTOR
+  program = student.program
+  specialization = student.specialization
+  semester = student.semester
+
+Teacher(s):
+TeachingAssignment
+where:
+  program = student.program
+  specialization = student.specialization
+  semester = student.semester
